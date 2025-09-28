@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.venv/
+.env
+
+# Airflow
+logs/
+.airflow/
+airflow.db
+dags/__pycache__/
+plugins/__pycache__/
+
+data/raw.csv
+data/new.csv
+data/*.tmp
+# DB / SQLite
+db/
+*.db
+# Docker
+*.log
+*.pid

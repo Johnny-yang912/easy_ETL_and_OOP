@@ -1,0 +1,6 @@
+txn_id,ts,amount,category,user_id,region,status,method,discount,remarks
+T001,2025-09-20 09:15:00,120.5,food,U001,Taipei,success,credit,0.0,lunch
+T002,2025-09-20 14:32:00,250.0,electronics,U002,Taichung,success,cash,10.0,earphone
+T003,2025-09-21 08:05:00,75.0,transport,U003,Kaohsiung,failed,credit,0.0,bus
+T004,2025-09-21 19:40:00,300.0,clothing,U004,Taipei,success,mobile,20.0,jacket
+T005,2025-09-22 11:20:00,60.0,food,U005,Tainan,success,credit,0.0,breakfast
