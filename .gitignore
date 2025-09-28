@@ -14,12 +14,15 @@ airflow.db
 dags/__pycache__/
 plugins/__pycache__/
 
+# 專案資料
 data/raw.csv
 data/new.csv
 data/*.tmp
+
 # DB / SQLite
 db/
 *.db
+
 # Docker
 *.log
 *.pid
