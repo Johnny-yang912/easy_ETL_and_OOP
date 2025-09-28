@@ -12,19 +12,21 @@
 
 ```
 easy_ETL_and_OOP/
-│── dags/                 # Airflow DAGs (ETL 工作流)
-│   └── etl_pipeline.py
-│── data/                 # 範例資料 (input.csv 保留)
+│── dags/                  # Airflow DAGs (ETL 工作流)
+│   └── etl_pipeline.py    # 定義 Airflow DAG
+│── data/                  # 範例資料 (input.csv 保留)
 │   └── input.csv
-│── db/                   # SQLite 資料庫 (自動生成，已忽略)
-│── logs/                 # Airflow log (自動生成，已忽略)
-│── plugins/              # Airflow plugins
-│── src/                  # 自訂模組
-│   └── transformers/     # 自訂 Transformer
-│── test/                 # 測試程式
-│── docker-compose.yml    # 建立 Airflow 環境
-│── requirements.txt      # Python 依賴套件
-│── .env                  # 環境變數設定 (已忽略)
+│── db/                    # SQLite 資料庫 (自動生成，已忽略)
+│── logs/                  # Airflow Log (自動生成，已忽略)
+│── plugins/               # Airflow plugins
+│── src/                   # 自訂模組
+│   ├── pipeline.py        # 建立 ETL pipeline
+│   └── transformers/      
+│       └── time_bucket.py # 時間處理 Transformer (OOP)
+│── docker-compose.yml     # 建立 Airflow 環境
+│── requirements.txt       # Python 依賴套件
+│── .env                   # 環境變數設定 (已忽略)
+
 ```
 
 ---
